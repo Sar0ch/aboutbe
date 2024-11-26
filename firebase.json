@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "public",  // เปลี่ยนจาก "." เป็น "public" หรือโฟลเดอร์ที่เก็บไฟล์ HTML
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

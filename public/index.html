@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about Saroch Pimnoi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<style>
+    body {
+        transform: scale(0.75); /* ซูมหน้าเว็บ 75% */
+        transform-origin: top left; /* กำหนดจุดเริ่มซูม */
+        width: 133.33%; /* ปรับขนาดความกว้างเพื่อให้แสดงเต็มจอ */
+    }
+</style>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 112vh;
+            transition: background-color 0.3s ease;
+        }
+        body:hover {
+            background-color: #f0f0f0;
+        }
+        .card {
+            width: 550px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            border: 4px solid #FF4D4D;
+            position: relative;
+            padding-bottom: 80px;
+            transform: scale(1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .profile-header {
+            background: linear-gradient(135deg, #FF6F6F, #FF4D4D);
+            color: white;
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-top: -46px;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .profile-pic:hover {
+            transform: rotate(15deg);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+        .content {
+            padding: 20px;
+        }
+        .about, .contact {
+            margin-bottom: 20px;
+        }
+        .about h2, .contact h2 {
+            margin-top: 0;
+            color: #FF4D4D;
+            border-bottom: 2px solid #FF4D4D;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+        .about h2:hover, .contact h2:hover {
+            color: #D32F2F;
+        }
+        .about p, .contact p {
+            line-height: 1.6;
+            color: #555;
+            transition: color 0.3s ease;
+        }
+        .contact .phone-logo, .contact .instagram-logo, .contact .gmail-logo {
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+        .contact .phone-logo:hover, .contact .instagram-logo:hover, .contact .gmail-logo:hover {
+            transform: scale(1.2);
+        }
+        .contact a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .contact a:hover {
+            color: #FF4D4D;
+        }
+        .cta {
+            text-align: center;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: transform 0.3s ease;
+        }
+        .cta a {
+            text-decoration: none;
+            background-color: #FF4D4D;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #D32F2F;
+            transform: scale(1.1);
+        }
+
+        /* เพิ่มแอนิเมชั่นข้อความ */
+        .animated-text {
+            display: inline-block;
+            animation: fadeIn 3s ease-in-out infinite;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            50% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+        }
+
+        /* เพิ่มโฟกัส */
+        .card:focus-within {
+            border-color: #FF6F6F;
+            box-shadow: 0 0 15px rgba(255, 79, 77, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card" tabindex="0">
+        <div class="profile-header">
+            <a href="https://media1.tenor.com/m/1J9-qnKbPBkAAAAd/พี่โต.gif" target="_blank">
+                <img class="profile-pic" src="https://cdn.discordapp.com/attachments/1300114943345164359/1310510277183148114/-_9.png?ex=67457b4e&is=674429ce&hm=452f667679ca5fd8a497d37b482618cb6f0fb92385eee63a8108cbc0db15843f&" alt="Saroch Pimnoi">
+            </a>
+            <h1>Saroch Pimnoi</h1>
+            <p>Bachelor of Science in Information Technology</p>
+            <p>Student ID: 67130500045</p>
+        </div>
+        <div class="content">
+            <div class="about">
+                <h2>About Me</h2>
+                <p>I am a first-year student in the Bachelor of Science in Information Technology program. I am interested in technology and enjoy playing sports such as football and basketball. However, I am not just a student I am a hero, tasked with protecting the world from the lone wolves.</p>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <p><img src="https://cdn-icons-png.freepik.com/512/3870/3870799.png" alt="Phone" class="phone-logo"> +66623734092</p>
+                <p><a href="https://www.instagram.com/_thisis.rra" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="instagram-logo">
+                    instagram.com/_thisis.rra</a></p>
+                <p><a href="mailto:saroch.pimn@mail.kmutt.ac.th">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="Gmail" class="gmail-logo">
+                    saroch.pimn@mail.kmutt.ac.th</a></p>
+            </div>
+        </div>
+        <div class="cta">
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=L-xuIut_5oau2lAm" target="_blank">Have a Good Day!</a>
+        </div>
+    </div>
+
+</body>
+</html>
